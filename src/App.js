@@ -11,8 +11,8 @@ import Form from './Pages/form';
 import RecentBlogs from './Sections/recentBlogs';
 import Footer from './Layout/footer';
 
-
 const App = () => {
+  
   return (
     <div>
       <Header />
