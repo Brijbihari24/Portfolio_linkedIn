@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import { Row, Col, Container } from 'reactstrap'
 import Section from './Sections/section';
@@ -12,6 +13,8 @@ import RecentBlogs from './Sections/recentBlogs';
 import Footer from './Layout/footer';
 
 const App = () => {
+
+  const [state, setstate] = useState(initialState)
   
   return (
     <div>
